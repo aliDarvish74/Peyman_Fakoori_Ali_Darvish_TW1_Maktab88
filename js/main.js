@@ -141,24 +141,28 @@ function selectCountry(countryName) {
                 </div>
               </div>
               <div class="container">
-                <p>
+                 <p>
                   <span class="text-warning d-inline-block w-25"
                     >Wind Speed:</span
-                  ><span class="text-light"> test speed</span>
+                  ><span class="text-light">${wind.speed} </span>
+                  <span class="text-warning ts = 2"> m/s</span>
                 </p>
                 <p>
                   <span class="text-warning d-inline-block w-25"
                     >Temprature:</span
-                  ><span class="text-light"> test Temprature</span>
+                  ><span class="text-light">${main.temp} </span>
+                  <span class="text-warning">F</span>
                 </p>
                 <p>
                   <span class="text-warning d-inline-block w-25">Humidity:</span
-                  ><span class="text-light"> test Humidity</span>
+                  ><span class="text-light">${main.humidity} </span>
+                  <span class="text-warning"> %</span>
                 </p>
                 <p>
                   <span class="text-warning d-inline-block w-25"
                     >Visibility:</span
-                  ><span class="text-light"> test Visibility</span>
+                  ><span class="text-light">${visibility} </span>
+                  <span class="text-warning">m</span>
                 </p>
               </div>
             </div>
