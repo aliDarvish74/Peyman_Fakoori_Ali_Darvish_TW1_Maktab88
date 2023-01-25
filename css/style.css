@@ -4,11 +4,40 @@
 #countries {
   position: absolute;
   top: 40px;
+  z-index: 99;
   max-height: 300px;
+}
+#country-list-body {
+  height: 100%;
   overflow: auto;
 }
 #searchTitle {
   position: sticky;
   top: 0;
   z-index: 100;
+}
+
+.card-header {
+  position: sticky;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  position: sticky;
+  right: 0;
+  z-index: 95;
+}
+
+::-webkit-scrollbar-track {
+  background: #aaa;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffbd03;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bca300;
 }

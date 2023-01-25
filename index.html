@@ -34,19 +34,22 @@
             aria-label="Username"
             aria-describedby="basic-addon1"
           />
-          <div class="list-group w-100 d-none rounded" id="countries"></div>
+          <div
+            class="list-group w-100 border border-light d-none rounded"
+            id="countries"
+          ></div>
         </div>
       </div>
     </nav>
     <div class="row mt-3 w-100">
-      <div class="col-lg-4">
-        <div class="container" id="left"></div>
+      <div class="col-lg-4 col-12">
+        <div class="container" id="country-data"></div>
       </div>
-      <div class="col-lg-4">
-        <div class="container rounded bg-secondary" id="center"></div>
+      <div class="col-lg-4 col-12">
+        <div class="container rounded bg-secondary" id="name-flag-data"></div>
       </div>
-      <div class="col-lg-4">
-        <div class="container" id="right"></div>
+      <div class="col-lg-4 col-12">
+        <div class="container" id="weather-data"></div>
       </div>
     </div>
 
@@ -59,5 +62,6 @@
   ></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="./js/getData.js"></script>
+  <script src="./js/dataGenerators.js"></script>
   <script src="./js/main.js"></script>
 </html>
